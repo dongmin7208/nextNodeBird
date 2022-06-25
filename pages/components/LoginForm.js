@@ -2,6 +2,10 @@ import { useState, useCallback } from "react";
 import { Form, Input, Button } from "antd";
 import Link from "next/link";
 import styled from "styled-components";
+
+const ButtonWrapper = style.div`
+ margin-top: 10px;
+ `;
 const LoginForm = () => {
     const [id, setId] = useState("");
     const [password, setPassword] = useState("");
@@ -34,14 +38,14 @@ const LoginForm = () => {
                     required
                 />
             </div>
-            <div style={{ marginTop: "15px" }}>
+            <ButtonWrapper>
                 <Button type="primary" htmlType="submit" loading={false}>
                     Login
                 </Button>
                 <Link href="/signup">
                     <a></a>
                 </Link>
-            </div>
+            </ButtonWrapper>
         </Form>
     );
 };
