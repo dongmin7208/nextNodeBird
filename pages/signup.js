@@ -1,4 +1,9 @@
+import AppLayout from "./components/AppLayout";
 const Signup = () => {
-    return <div>my Signup</div>;
+    return (
+        <AppLayout>
+            <div>my Signup</div>;
+        </AppLayout>
+    );
 };
 export default Signup;

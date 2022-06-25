@@ -1,4 +1,4 @@
-import prototypes, { checkPropTypes } from "prop-types";
+import PropTypes from "prop-types";
 
 const AppLayout = ({ children }) => {
     return (
@@ -9,7 +9,7 @@ const AppLayout = ({ children }) => {
 };
 
 AppLayout.prototype = {
-    children: checkPropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 };
 
 export default AppLayout;
