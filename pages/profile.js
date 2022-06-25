@@ -2,7 +2,7 @@ import AppLayout from "./components/AppLayout";
 const Profile = () => {
     return (
         <AppLayout>
-            <div>my profile</div>;
+            <div>my profile</div>
         </AppLayout>
     );
 };

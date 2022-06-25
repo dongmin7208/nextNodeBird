@@ -2,7 +2,7 @@ import AppLayout from "./components/AppLayout";
 const Signup = () => {
     return (
         <AppLayout>
-            <div>my Signup</div>;
+            <div>my Signup</div>
         </AppLayout>
     );
 };
