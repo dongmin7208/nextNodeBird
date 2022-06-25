@@ -11,7 +11,7 @@ const FormWrapper = styled(Form)`
     padding: 20px;
 `;
 const ButtonDivision = styled.div`
-    margin-left: 5px;
+    // margin-left: 5px;
 `;
 const LoginForm = ({ setIsLoggedIn }) => {
     const [id, setId] = useState("");
@@ -54,13 +54,11 @@ const LoginForm = ({ setIsLoggedIn }) => {
                 <Button type="primary" htmlType="submit" loading={false}>
                     Login
                 </Button>
-                <ButtonDivision>
-                    <Link href="/signup">
-                        <a>
-                            <Button>Signup</Button>
-                        </a>
-                    </Link>
-                </ButtonDivision>
+                <Link href="/signup">
+                    <a>
+                        <Button>Signup</Button>
+                    </a>
+                </Link>
             </ButtonWrapper>
         </FormWrapper>
     );

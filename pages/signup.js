@@ -4,7 +4,7 @@ const Signup = () => {
     return (
         <>
             <Head>
-                <title>donmin | signup</title>
+                <title>dondon | signup</title>
             </Head>
             <AppLayout>
                 <div>my Signup</div>

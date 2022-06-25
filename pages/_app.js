@@ -6,7 +6,7 @@ const NodeBird = ({ Component }) => {
     return (
         <>
             <Head>
-                <title>donmin | Title</title>
+                <title>dondon | Title</title>
             </Head>
             <Component />
         </>
