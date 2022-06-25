@@ -1,11 +1,19 @@
 import "antd/dist/antd.css";
 import PropTypes from "prop-types";
+import Head from "next/head";
 
-const App = ({ Component }) => {
-    return <Component />;
+const NodeBird = ({ Component }) => {
+    return (
+        <>
+            <Head>
+                <title>donmin | Title</title>
+            </Head>
+            <Component />
+        </>
+    );
 };
-App.PropTypes = {
+NodeBird.PropTypes = {
     Component: PropTypes.elementType.isRequired,
 };
 
-export default App;
+export default NodeBird;

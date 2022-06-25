@@ -1,9 +1,15 @@
 import AppLayout from "./components/AppLayout";
+import Head from "next/head";
 const Profile = () => {
     return (
-        <AppLayout>
-            <div>my profile</div>
-        </AppLayout>
+        <>
+            <Head>
+                <title>donmin | profile</title>
+            </Head>
+            <AppLayout>
+                <div>my profile</div>
+            </AppLayout>
+        </>
     );
 };
 export default Profile;
